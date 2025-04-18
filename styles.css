@@ -9,7 +9,8 @@
 
 body {
   font-family: "Roboto Mono", monospace;
-  background: linear-gradient(120deg, #F5EEDC, #DDA853);
+  background: linear-gradient(to bottom, #FFF9C4, #FFCC80, #A5D6A7);
+  color: #4F4F4F;
 }
 
 html {
@@ -36,8 +37,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
-  background-color: #183B4E;
-  color: #F5EEDC;
+  background-color: #A8D5BA; 
+  color: #4F4F4F;
 }
 
 .nav-links {
@@ -46,11 +47,12 @@ nav {
   font-size: 1.5rem;
 }
 
-.nav-links a {
-  color: #F5EEDC;
+nav .nav-links a {
+  color: #4F4F4F; 
 }
-.nav-links a:hover {
-  color: #DDA853;
+
+nav .nav-links a:hover {
+  color: #183B4E; 
 }
 
 a {
@@ -60,14 +62,23 @@ a {
 }
 
 
-.btn {
-  background-color: #27548A;
-  color: black;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  border: none;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
+.btn-color-1 {
+  background-color: #FFF9C4; 
+  color: #4F4F4F; 
+}
+.btn-color-1:hover {
+  background-color: #FFCC80; 
+  color: white;
+}
+
+.btn-color-2 {
+  background: none;
+  border: 2px solid #A5D6A7; 
+  color:black;
+}
+.btn-color-2:hover {
+  background-color: #A5D6A7;
+  color: white;
 }
 .btn:hover {
   background-color: #183B4E;
@@ -169,6 +180,7 @@ section {
   box-sizing: border-box;
   min-height: fit-content;
 }
+
 
 .section-container {
   display: flex;
@@ -318,10 +330,11 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background:#FFFFFF;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
+  box-shadow: 0 4px 8px rgba(24, 59, 78, 0.1);
   text-align: center;
 }
 
