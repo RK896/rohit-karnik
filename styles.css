@@ -326,9 +326,15 @@ section {
 }
 
 .section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.section__pic-container img {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
 }
 
 /* Experience Section */
