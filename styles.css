@@ -161,10 +161,11 @@ a {
 
 section {
   padding-top: 4vh;
-  height: 70vh;
+  min-height: 70vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  margin-bottom: 3rem;
 }
 
 about-section {
