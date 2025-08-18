@@ -15,6 +15,7 @@ html {
 p {
   color: rgb(85, 85, 85);
   font-size: large;
+  line-height: 1.6;
 }
 
 /* TRANSITION */
@@ -184,7 +185,7 @@ about-section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 70vh;
 }
 
 .section__pic-container {
